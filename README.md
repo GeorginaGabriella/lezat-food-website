@@ -6,9 +6,9 @@ LEZAT FOOD adalah website pemesanan makanan online yang dibuat sebagai proyek tu
 
 ## 👩‍💻 Identitas Mahasiswa
 
-- **Nama:** [Nama Lengkap]
-- **NIM:** [NIM]
-- **Mata Kuliah:** Front-End Programming
+- **Nama: Georgina Gabriella**
+- **NIM: 535250014**
+- **Mata Kuliah: Front-End Programming**
 
 ## 📌 Fitur Website
 

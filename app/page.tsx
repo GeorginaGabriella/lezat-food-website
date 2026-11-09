@@ -223,9 +223,9 @@ export default function Home() {
               <div className="contact-details">
                 <div>📍 <span>Indonesia</span></div>
                 <div>📞 <span>+62 812 3456 7890</span></div>
-                <div>✉️ <span>lezatfood@example.com</span></div>
+                <div>✉️ <span>lezatfood@gmail.com</span></div>
               </div>
-              <a href="mailto:lezatfood@example.com" className="contact-button">Contact Us →</a>
+              <a href="mailto:lezatfood@gmail.com" className="contact-button">Contact Us →</a>
             </div>
           </div>
         </section>
