@@ -24,12 +24,22 @@ const HeroSection = () => {
       </div>
 
       <div className="hero-carousel">
-        <Carousel fade interval={4000} indicators controls>
+        <Carousel
+          fade
+          interval={3000}
+          controls
+          indicators
+          pause={false}
+          wrap={true}
+          slide={true}
+        >
           {slides.map((slide, index) => (
             <Carousel.Item key={index}>
               <div
                 className="hero-slide"
-                style={{ backgroundImage: `url(${slide.imageUrl})` }}
+                style={{
+                  backgroundImage: `url(${slide.imageUrl})`,
+                }}
                 role="img"
                 aria-label={slide.alt}
               />
@@ -40,4 +50,5 @@ const HeroSection = () => {
     </section>
   );
 };
+
 export default HeroSection;
