@@ -1,56 +1,97 @@
-# LEZAT FOOD - Food Delivery Website
+# LEZAT FOOD 🍔
 
-## Identitas Mahasiswa
-- Nama: Georgina Gabriella
-- NIM: 535250014
+**Website Food Delivery – Next.js**
 
-## Deskripsi
-LEZAT FOOD merupakan website food delivery berbasis single page website yang dibuat menggunakan Next.js, React, TypeScript, React Bootstrap, dan CSS.
+LEZAT FOOD adalah website pemesanan makanan online yang dibuat sebagai proyek tugas praktikum Front-End Programming. Website ini menampilkan berbagai pilihan makanan dengan desain modern, menarik, dan responsif.
 
-Website ini menampilkan berbagai pilihan makanan, promosi, informasi layanan, serta kontak.
+## 👩‍💻 Identitas Mahasiswa
 
-## Fitur
-- Responsive Navbar
-- Active Navbar berdasarkan posisi scroll
-- Automatic Image Carousel
-- Menu Makanan
-- Special Promotion
-- Why Choose Us
-- Customer Reviews
-- About Us
-- FAQ
-- Contact Information
-- Footer
-- Back to Top Button
+- **Nama:** [Nama Lengkap]
+- **NIM:** [NIM]
+- **Mata Kuliah:** Front-End Programming
 
-## Teknologi
+## 📌 Fitur Website
+
+1. **Responsive Navbar**  
+   Navigasi website dengan menu aktif yang memiliki styling khusus.
+
+2. **Image Carousel**  
+   Sliding banner menggunakan React Bootstrap Carousel dengan empat gambar makanan yang berganti secara otomatis.
+
+3. **Menu Makanan**  
+   Menampilkan pilihan makanan yang tersedia.
+
+4. **Responsive Design**  
+   Tampilan website menyesuaikan berbagai ukuran layar, baik desktop, tablet, maupun smartphone.
+
+5. **Landing Page**  
+   Website menggunakan konsep single page dengan beberapa bagian informasi.
+
+## 🛠️ Teknologi yang Digunakan
+
 - Next.js
 - React
 - TypeScript
 - React Bootstrap
 - Bootstrap CSS
-- Custom CSS
+- CSS
 
-## Menjalankan Project
+## 📂 Struktur Folder
 
-Install dependencies:
+```text
+lezat-food-website/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── navbar.tsx
+│   └── herosection.tsx
+├── public/
+│   └── images/
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── next.config.ts
+└── README.md
+```
+
+## 🚀 Cara Menjalankan Project
+
+1. Clone repository:
+
+```bash
+git clone https://github.com/GeorginaGabriella/lezat-food-website.git
+```
+
+2. Masuk ke folder project:
+
+```bash
+cd lezat-food-website
+```
+
+3. Install dependencies:
 
 ```bash
 npm install
 ```
 
-Jalankan development server:
+4. Jalankan development server:
 
 ```bash
 npm run dev
 ```
 
-Buka browser:
+5. Buka browser dan akses:
 
+```text
 http://localhost:3000
+```
 
-## Struktur Gambar
-Semua gambar disimpan di folder `public/images`.
+## 🎯 Tujuan Project
 
-## Copyright
-© 2026 LEZAT FOOD.
+Project ini dibuat untuk mengembangkan pemahaman mengenai penggunaan komponen Carousel, styling Navbar untuk menandai menu aktif, serta penerapan responsive design dalam pengembangan website menggunakan Next.js.
+
+---
+
+**LEZAT FOOD – Delicious Food, Happy Mood!**
