@@ -87,11 +87,6 @@ npm run dev
 ```text
 http://localhost:3000
 ```
-
-## 🎯 Tujuan Project
-
-Project ini dibuat untuk mengembangkan pemahaman mengenai penggunaan komponen Carousel, styling Navbar untuk menandai menu aktif, serta penerapan responsive design dalam pengembangan website menggunakan Next.js.
-
 ---
 
 **LEZAT FOOD – Delicious Food, Happy Mood!**
